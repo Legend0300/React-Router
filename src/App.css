@@ -44,3 +44,26 @@ body {
     flex-direction: column; /* set the direction to column */
   }
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgb(4, 29, 37);
+  list-style: none;
+}
+
+ul {
+
+  margin-bottom: 10px;
+  background-color: rgb(4, 29, 37);
+  list-style: none;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
